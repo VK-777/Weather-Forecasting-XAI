@@ -91,3 +91,38 @@ Preprocessing steps include handling missing values, normalization, and feature 
    ```bash
    git clone https://github.com/VK-777/Weather-Forecasting-XAI.git
    cd weather-forecasting-xai
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Download the dataset: Download the dataset from [here](https://www.kaggle.com/datasets/nelgiriyewithana/indian-weather-repository-daily-snapshot) and keep it in the same directory as the code.
+
+## Usage
+1. Open the notebook:
+   ```bash
+   jupyter notebook notebook/Weather_Forecasting_using_XAI_notebook.ipynb
+2. Run all cells to preprocess the data, train the model, and evaluate results.
+
+3. Explore SHAP explanations for model predictions.
+
+## Future Work
+- Integration with real-time weather data.
+- Multivariate time-series forecasting.
+- Hybrid models combining LSTMs with Transformers or CNNs.
+- Optimization for edge devices to enable offline forecasting.
+- Expansion to include global datasets.
+
+## Authors
+- Vedant Kumar
+- M. Aditya
+- Aryak Mohanty
+- V Sravan Kumar
+- Kumar Abhishek
+- Vishal Singh
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Acknowledgements
+Special thanks to **Jayeeta Chakraborty**, Assistant Professor, for her guidance and support.
+
+
